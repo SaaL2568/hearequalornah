@@ -1,0 +1,26 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:models="clr-namespace:HearEqualOrNah.Core.Models;assembly=HearEqualOrNah.Core"
+                    xmlns:converters="clr-namespace:HearEqualOrNah.UI.Converters">
+
+    <!-- Converters -->
+    <converters:BooleanToVisibilityConverter x:Key="BoolToVis"/>
+    <converters:BooleanToVisibilityConverter x:Key="InverseBoolToVis" Inverse="True"/>
+    <converters:DoubleToPercentConverter x:Key="DoubleToPercent"/>
+    <converters:DoubleToDbConverter x:Key="DoubleToDb"/>
+    <converters:TestStateToTextConverter x:Key="TestStateToText"/>
+    <converters:MeasurementQualityToTextConverter x:Key="QualityToText"/>
+    <converters:NullToVisibilityConverter x:Key="NullToVis"/>
+
+    <!-- AudioDeviceInfo Template (keyed for ComboBox) -->
+    <DataTemplate x:Key="AudioDeviceItemTemplate" DataType="{x:Type models:AudioDeviceInfo}">
+        <StackPanel Orientation="Horizontal" Margin="4,0">
+            <TextBlock Text="&#x25CF;" FontSize="8" Foreground="{StaticResource BrushTextMuted}" VerticalAlignment="Center" Margin="0,0,8,0"/>
+            <StackPanel>
+                <TextBlock Text="{Binding Name}" Style="{StaticResource TextBase}"/>
+                <TextBlock Text="{Binding InterfaceName}" Style="{StaticResource TextMuted}"/>
+            </StackPanel>
+        </StackPanel>
+    </DataTemplate>
+
+</ResourceDictionary>

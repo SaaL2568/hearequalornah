@@ -1,0 +1,117 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Warm Monochrome Palette -->
+    <Color x:Key="ColorCanvas">#F7F6F3</Color>
+    <Color x:Key="ColorCanvasAlt">#FBFBFA</Color>
+    <Color x:Key="ColorSurface">#FFFFFF</Color>
+    <Color x:Key="ColorSurfaceHover">#F9F9F8</Color>
+    <Color x:Key="ColorBorder">#EAEAEA</Color>
+    <Color x:Key="ColorBorderStrong">#E0E0E0</Color>
+    <Color x:Key="ColorTextPrimary">#111111</Color>
+    <Color x:Key="ColorTextSecondary">#787774</Color>
+    <Color x:Key="ColorTextMuted">#A8A8A4</Color>
+    <Color x:Key="ColorTextInverse">#FFFFFF</Color>
+
+    <!-- Muted Pastel Accents -->
+    <Color x:Key="ColorAccentRedBg">#FDEBEC</Color>
+    <Color x:Key="ColorAccentRedText">#9F2F2D</Color>
+    <Color x:Key="ColorAccentBlueBg">#E1F3FE</Color>
+    <Color x:Key="ColorAccentBlueText">#1F6C9F</Color>
+    <Color x:Key="ColorAccentGreenBg">#EDF3EC</Color>
+    <Color x:Key="ColorAccentGreenText">#346538</Color>
+    <Color x:Key="ColorAccentYellowBg">#FBF3DB</Color>
+    <Color x:Key="ColorAccentYellowText">#956400</Color>
+    <Color x:Key="ColorAccentPurpleBg">#F3EEFC</Color>
+    <Color x:Key="ColorAccentPurpleText">#6B3FA0</Color>
+
+    <!-- Semantic Colors -->
+    <Color x:Key="ColorSuccessBg">#EDF3EC</Color>
+    <Color x:Key="ColorSuccessText">#346538</Color>
+    <Color x:Key="ColorWarningBg">#FBF3DB</Color>
+    <Color x:Key="ColorWarningText">#956400</Color>
+    <Color x:Key="ColorErrorBg">#FDEBEC</Color>
+    <Color x:Key="ColorErrorText">#9F2F2D</Color>
+    <Color x:Key="ColorInfoBg">#E1F3FE</Color>
+    <Color x:Key="ColorInfoText">#1F6C9F</Color>
+
+    <!-- SolidColorBrushes -->
+    <SolidColorBrush x:Key="BrushCanvas" Color="{StaticResource ColorCanvas}"/>
+    <SolidColorBrush x:Key="BrushCanvasAlt" Color="{StaticResource ColorCanvasAlt}"/>
+    <SolidColorBrush x:Key="BrushSurface" Color="{StaticResource ColorSurface}"/>
+    <SolidColorBrush x:Key="BrushSurfaceHover" Color="{StaticResource ColorSurfaceHover}"/>
+    <SolidColorBrush x:Key="BrushBorder" Color="{StaticResource ColorBorder}"/>
+    <SolidColorBrush x:Key="BrushBorderStrong" Color="{StaticResource ColorBorderStrong}"/>
+    <SolidColorBrush x:Key="BrushTextPrimary" Color="{StaticResource ColorTextPrimary}"/>
+    <SolidColorBrush x:Key="BrushTextSecondary" Color="{StaticResource ColorTextSecondary}"/>
+    <SolidColorBrush x:Key="BrushTextMuted" Color="{StaticResource ColorTextMuted}"/>
+    <SolidColorBrush x:Key="BrushTextInverse" Color="{StaticResource ColorTextInverse}"/>
+
+    <SolidColorBrush x:Key="BrushAccentRedBg" Color="{StaticResource ColorAccentRedBg}"/>
+    <SolidColorBrush x:Key="BrushAccentRedText" Color="{StaticResource ColorAccentRedText}"/>
+    <SolidColorBrush x:Key="BrushAccentBlueBg" Color="{StaticResource ColorAccentBlueBg}"/>
+    <SolidColorBrush x:Key="BrushAccentBlueText" Color="{StaticResource ColorAccentBlueText}"/>
+    <SolidColorBrush x:Key="BrushAccentGreenBg" Color="{StaticResource ColorAccentGreenBg}"/>
+    <SolidColorBrush x:Key="BrushAccentGreenText" Color="{StaticResource ColorAccentGreenText}"/>
+    <SolidColorBrush x:Key="BrushAccentYellowBg" Color="{StaticResource ColorAccentYellowBg}"/>
+    <SolidColorBrush x:Key="BrushAccentYellowText" Color="{StaticResource ColorAccentYellowText}"/>
+    <SolidColorBrush x:Key="BrushAccentPurpleBg" Color="{StaticResource ColorAccentPurpleBg}"/>
+    <SolidColorBrush x:Key="BrushAccentPurpleText" Color="{StaticResource ColorAccentPurpleText}"/>
+
+    <SolidColorBrush x:Key="BrushSuccessBg" Color="{StaticResource ColorSuccessBg}"/>
+    <SolidColorBrush x:Key="BrushSuccessText" Color="{StaticResource ColorSuccessText}"/>
+    <SolidColorBrush x:Key="BrushWarningBg" Color="{StaticResource ColorWarningBg}"/>
+    <SolidColorBrush x:Key="BrushWarningText" Color="{StaticResource ColorWarningText}"/>
+    <SolidColorBrush x:Key="BrushErrorBg" Color="{StaticResource ColorErrorBg}"/>
+    <SolidColorBrush x:Key="BrushErrorText" Color="{StaticResource ColorErrorText}"/>
+    <SolidColorBrush x:Key="BrushInfoBg" Color="{StaticResource ColorInfoBg}"/>
+    <SolidColorBrush x:Key="BrushInfoText" Color="{StaticResource ColorInfoText}"/>
+
+    <!-- Typography -->
+    <FontFamily x:Key="FontPrimary">Segoe UI</FontFamily>
+    <FontFamily x:Key="FontEditorial">Georgia</FontFamily>
+    <FontFamily x:Key="FontMono">Consolas</FontFamily>
+
+    <sys:Double x:Key="FontSizeXS">11</sys:Double>
+    <sys:Double x:Key="FontSizeSM">13</sys:Double>
+    <sys:Double x:Key="FontSizeBase">15</sys:Double>
+    <sys:Double x:Key="FontSizeLG">17</sys:Double>
+    <sys:Double x:Key="FontSizeXL">20</sys:Double>
+    <sys:Double x:Key="FontSize2XL">28</sys:Double>
+    <sys:Double x:Key="FontSize3XL">40</sys:Double>
+    <sys:Double x:Key="FontSize4XL">56</sys:Double>
+
+    <sys:Double x:Key="LineHeightTight">1.1</sys:Double>
+    <sys:Double x:Key="LineHeightNormal">1.5</sys:Double>
+    <sys:Double x:Key="LineHeightRelaxed">1.7</sys:Double>
+
+    <!-- Spacing -->
+    <sys:Double x:Key="Space1">4</sys:Double>
+    <sys:Double x:Key="Space2">8</sys:Double>
+    <sys:Double x:Key="Space3">12</sys:Double>
+    <sys:Double x:Key="Space4">16</sys:Double>
+    <sys:Double x:Key="Space5">20</sys:Double>
+    <sys:Double x:Key="Space6">24</sys:Double>
+    <sys:Double x:Key="Space8">32</sys:Double>
+    <sys:Double x:Key="Space10">40</sys:Double>
+    <sys:Double x:Key="Space12">48</sys:Double>
+    <sys:Double x:Key="Space16">64</sys:Double>
+
+    <!-- Border Radius -->
+    <CornerRadius x:Key="RadiusSM">4</CornerRadius>
+    <CornerRadius x:Key="RadiusMD">8</CornerRadius>
+    <CornerRadius x:Key="RadiusLG">12</CornerRadius>
+    <CornerRadius x:Key="RadiusFull">9999</CornerRadius>
+
+    <!-- Shadows (Ultra-subtle) -->
+    <DropShadowEffect x:Key="ShadowNone" BlurRadius="0" ShadowDepth="0" Opacity="0"/>
+    <DropShadowEffect x:Key="ShadowMicro" BlurRadius="4" ShadowDepth="1" Opacity="0.03" Color="{StaticResource ColorTextPrimary}"/>
+    <DropShadowEffect x:Key="ShadowSubtle" BlurRadius="8" ShadowDepth="2" Opacity="0.04" Color="{StaticResource ColorTextPrimary}"/>
+    <DropShadowEffect x:Key="ShadowCard" BlurRadius="12" ShadowDepth="2" Opacity="0.05" Color="{StaticResource ColorTextPrimary}"/>
+
+    <!-- Transitions -->
+    <Duration x:Key="DurationFast">0:0:0.15</Duration>
+    <Duration x:Key="DurationNormal">0:0:0.2</Duration>
+    <Duration x:Key="DurationSlow">0:0:0.3</Duration>
+</ResourceDictionary>
